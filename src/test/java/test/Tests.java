@@ -13,7 +13,7 @@ public class Tests extends BaseTest{
         Assert.assertTrue(managerLogin.isPageLoaded(), "Manager Login Page is not loaded");
         MainPage mainPage = managerLogin.login("","");
         Assert.assertTrue(mainPage.isPageLoaded(), "Main PagePage is not loaded");
-        sleep(1000);
+        sleep(2000);
         mainPage.switchToFrame();
         mainPage.clickOnPlusButtonRu();
         mainPage.clickOnPlusButtonFeedbacks();
